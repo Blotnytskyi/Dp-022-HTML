@@ -1,0 +1,169 @@
+body {
+  background-color: rgb(45, 45, 45);
+}
+
+.container {
+  background-color: rgb(168, 246, 249);
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -400px;
+}
+
+.color105 {
+  background-color: rgb(0, 105, 0);
+}
+
+.color151 {
+  background-color: rgb(152, 109, 72);
+}
+
+.leg {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(44, 30, 35);
+  margin-left: 352px;
+}
+
+.layout1 {
+  width: 600px;
+  height: 95px;
+  background-color: rgb(0, 57, 1);
+  margin-left: 93px;
+  position: relative;
+}
+
+.layout2 {
+  width: 500px;
+  height: 80px;
+  background-color: rgb(0, 84, 0);
+  margin-left: 143px;
+  position: relative;
+}
+
+.layout3 {
+  width: 450px;
+  height: 75px;
+  background-color: rgb(0, 94, 0);
+  margin-left: 168px;
+  position: relative;
+}
+
+.layout4 {
+  width: 400px;
+  height: 70px;
+  margin-left: 193px;
+  position: relative;
+}
+
+.layout5 {
+  width: 300px;
+  height: 60px;
+  margin-left: 243px;
+}
+
+.layout6 {
+  width: 150px;
+  height: 45px;
+  margin-left: 318px;
+}
+
+.layout7 {
+  width: 60px;
+  height: 35px;
+  background-color: rgb(0, 186, 0);
+  margin-left: 372px;
+  margin-top: 90px;
+}
+
+.treetoy-1 {
+  position: relative;
+  top: 11px;
+  left: 128px;
+}
+
+.treetoy-2 {
+  position: absolute;
+  top: 18px;
+  left: 91px;
+}
+
+.treetoy-3 {
+  position: relative;
+  top: 17px;
+  left: 235px;
+}
+
+.treetoy-4 {
+  position: absolute;
+  top: 21px;
+  left: 129px;
+}
+
+.treetoy-5 {
+  position: relative;
+  top: 24px;
+  left: 335px;
+}
+
+.treetoy-6 {
+  position: absolute;
+  top: 13px;
+  left: 77px;
+}
+
+.treetoy-7 {
+  position: relative;
+  top: 17px;
+  left: 129px;
+}
+
+.treetoy-8 {
+  position: absolute;
+  top: 37px;
+  left: 70px;
+}
+
+.treetoy-9 {
+  position: relative;
+  top: 20px;
+  left: 381px;
+}
+
+.r24 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.r26 {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.r28 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.r30 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.r34 {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.r44 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}

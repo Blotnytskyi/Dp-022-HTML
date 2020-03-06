@@ -1,0 +1,161 @@
+body {
+  background-color: rgb(45, 45, 45);
+}
+
+.container {
+  background-color: rgb(169, 245, 249);
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -400px;
+}
+
+.center {
+  margin: auto;
+}
+
+.color106 {
+  background-color: rgb(0, 106, 0);
+}
+
+.color151 {
+  background-color: rgb(151, 110, 73);
+}
+
+.leg {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(45, 30, 35);
+}
+
+.layout1 {
+  width: 600px;
+  height: 95px;
+  background-color: rgb(0, 58, 0);
+}
+
+.layout2 {
+  width: 500px;
+  height: 80px;
+  background-color: rgb(0, 85, 0);
+}
+
+.layout3 {
+  width: 450px;
+  height: 75px;
+  background-color: rgb(0, 95, 0);
+}
+
+.layout4 {
+  width: 400px;
+  height: 70px;
+}
+
+.layout5 {
+  width: 300px;
+  height: 60px;
+}
+
+.layout6 {
+  width: 150px;
+  height: 45px;
+}
+
+.layout7 {
+  width: 60px;
+  height: 35px;
+  background-color: rgb(0, 187, 0);
+  margin-left: 370px;
+  margin-top: 90px;
+}
+
+.treetoy-1 {
+  position: relative;
+  top: 12px;
+  left: 129px;
+}
+
+.treetoy-2 {
+  position: relative;
+  top: 19px;
+  left: 92px;
+}
+
+.treetoy-3 {
+  position: relative;
+  top: -7px;
+  left: 236px;
+}
+
+.treetoy-4 {
+  position: relative;
+  top: 20px;
+  left: 130px;
+}
+
+.treetoy-5 {
+  position: relative;
+  left: 335px;
+}
+
+.treetoy-6 {
+  position: relative;
+  top: 14px;
+  left: 78px;
+}
+
+.treetoy-7 {
+  position: relative;
+  top: -16px;
+  left: 130px;
+}
+
+.treetoy-8 {
+  position: relative;
+  top: 38px;
+  left: 71px;
+}
+
+.treetoy-9 {
+  position: relative;
+  top: -9px;
+  left: 382px;
+}
+
+.r24 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.r26 {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.r28 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.r30 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.r34 {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.r44 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
