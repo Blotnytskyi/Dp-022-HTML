@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Didonesque-Black";
+  src: url(Fontspring-DEMO-didonesque-black.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Didonesque-Italic";
+  src: url(Fontspring-DEMO-didonesque-italic.otf);
+  font-weight: bold;
+}
+
+@font-face {
+    font-family: "Didonesque-Mediumitalic";
+    src: url(Fontspring-DEMO-didonesque-mediumitalic.otf);
+    font-weight: bold;
+  }
+
+@font-face {
+  font-family: "didonesque-display";
+  src: url(Fontspring-DEMO-didonesque-display.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "baskerville_serial-light";
+  src: url(Fontspring-DEMO-baskerville_serial-light.otf);
+  font-weight: 100;
+}
+
+.medium {
+    font-family: "Didonesque-Mediumitalic", serif;
+}
+
+
+body {
+  background-color: seashell;
+}
+
+.container {
+  width: 1240px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -620px;
+}
+
+.blocksize {
+  width: 400px;
+  height: 300px;
+  float: left;
+}
+
+.margin25 {
+  margin-right: 20px;
+}
+
+.yellow {
+  background-color: rgb(214, 241, 25);
+}
+
+.pink {
+  background-color: rgb(228, 2, 126);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgb(228, 2, 126),
+    rgb(164, 26, 92)
+  );
+}
+
+.grey {
+  background-color: rgb(74, 74, 74);
+}
+
+.line {
+  width: 300px;
+  text-align: center;
+}
+
+.line:nth-of-type(1) {
+  font-size: 101px;
+  line-height: 0.6;
+}
+
+.line:nth-of-type(2) {
+  font-family: "Didonesque-Italic", serif;
+  font-size: 40px;
+}
+
+.big {
+  font-size: 55px;
+}
+
+.line:nth-of-type(3) {
+  font-size: 81px;
+  line-height: 0.75;
+}
+
+.line:nth-of-type(odd) {
+  font-family: "Didonesque-Black", serif;
+}
+
+.blockcenter {
+  position: relative;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -92px 0 0 -150px;
+}
+
+/* Block 2 ------------------------------------------------------------------*/
+
+.blockcenter2 {
+  position: relative;
+  width: 360px;
+  height: 280px;
+  top: 50%;
+  left: 50%;
+  margin: -140px 0 0 -180px;
+  font-size: 90px;
+}
+
+.block2line {
+  width: 360px;
+  font-family: "didonesque-display", serif;
+  text-align: center;
+}
+
+.block2line:nth-of-type(odd) {
+  color: rgb(254, 130, 212);
+}
+
+.block2line:nth-of-type(1) {
+  font-size: 64%;
+  position: absolute;
+  top: 30px;
+}
+
+.block2line:nth-of-type(2) {
+  color: rgb(249, 255, 252);
+  font-size: 100%;
+  width: 360px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -60px 0 0 -180px;
+}
+
+.block2line:nth-of-type(3) {
+  font-size: 23%;
+  position: absolute;
+  bottom: 25px;
+}
+
+/* Block 3---------------------------------------------------------- */
+
+.line000 {
+  font-family: "baskerville_serial-light", serif;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  text-align: center;
+}
+
+.line000:nth-of-type(odd) {
+  font-size: 33px;
+}
+
+.line000:nth-of-type(2) {
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.line000:nth-of-type(4) {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 35px;
+}
+
+.line000:nth-of-type(5) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 206px;
+}
+
+.blockcenter:nth-of-type(3) {
+  margin: -93px 0 0 -150px;
+}
