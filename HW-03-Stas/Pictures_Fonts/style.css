@@ -1,66 +1,102 @@
 @font-face {
   font-family: "Didonesque-Black";
-  src: url(Fontspring-DEMO-didonesque-black.otf);
-  font-weight: bold;
+  src: url(../Pictures_Fonts/Fonts/Fontspring-DEMO-didonesque-black.otf);
 }
 
 @font-face {
   font-family: "Didonesque-Italic";
-  src: url(Fontspring-DEMO-didonesque-italic.otf);
-  font-weight: bold;
+  src: url(../Pictures_Fonts/Fonts/Fontspring-DEMO-didonesque-italic.otf);
 }
 
 @font-face {
-    font-family: "Didonesque-Mediumitalic";
-    src: url(Fontspring-DEMO-didonesque-mediumitalic.otf);
-    font-weight: bold;
-  }
+  font-family: "Didonesque-Mediumitalic";
+  src: url(../Pictures_Fonts/Fonts/Fontspring-DEMO-didonesque-mediumitalic.otf);
+}
 
 @font-face {
   font-family: "didonesque-display";
-  src: url(Fontspring-DEMO-didonesque-display.otf);
-  font-weight: 100;
+  src: url(../Pictures_Fonts/Fontspring-DEMO-didonesque-display.otf);
 }
 
 @font-face {
   font-family: "baskerville_serial-light";
-  src: url(Fontspring-DEMO-baskerville_serial-light.otf);
-  font-weight: 100;
+  src: url(../Pictures_Fonts/Fonts/Fontspring-DEMO-baskerville_serial-light.otf);
 }
 
-.medium {
-    font-family: "Didonesque-Mediumitalic", serif;
-}
-
+/* General ---------------------------------- */
 
 body {
   background-color: seashell;
+}
+
+.top_left_50 {
+  top: 50%;
+  left: 50%;
 }
 
 .container {
   width: 1240px;
   height: 300px;
   position: absolute;
-  top: 50%;
-  left: 50%;
   margin: -150px 0 0 -620px;
 }
 
 .blocksize {
   width: 400px;
   height: 300px;
-  float: left;
+  float: left; /* Block in one line */
 }
 
-.margin25 {
+/* Block 1 --------------------------------------------------------- */
+
+.blocksize:nth-of-type(1) {
+  background-color: rgb(214, 241, 25);
   margin-right: 20px;
 }
 
-.yellow {
-  background-color: rgb(214, 241, 25);
+.big {
+  /* Lower case as capital letters*/
+  font-size: 55px;
 }
 
-.pink {
+.medium {
+  /* Bolder text for font Didonesque-italic */
+  font-family: "Didonesque-Mediumitalic", serif;
+}
+
+.blockcenter {
+  position: relative;
+  width: 300px;
+  margin: -92px 0 0 -150px;
+}
+
+.block1line:nth-of-type(odd) {
+  font-family: "Didonesque-Black", serif;
+}
+
+.block1line {
+  width: 300px;
+  text-align: center;
+}
+
+.block1line:nth-of-type(1) {
+  font-size: 101px;
+  line-height: 0.6;
+}
+
+.block1line:nth-of-type(2) {
+  font-family: "Didonesque-Italic", serif;
+  font-size: 40px;
+}
+
+.block1line:nth-of-type(3) {
+  font-size: 81px;
+  line-height: 0.75;
+}
+
+/* Block 2 ------------------------------------------------------------------*/
+
+.blocksize:nth-of-type(2) {
   background-color: rgb(228, 2, 126);
   background: radial-gradient(
     circle at 50% 50%,
@@ -69,54 +105,10 @@ body {
   );
 }
 
-.grey {
-  background-color: rgb(74, 74, 74);
-}
-
-.line {
-  width: 300px;
-  text-align: center;
-}
-
-.line:nth-of-type(1) {
-  font-size: 101px;
-  line-height: 0.6;
-}
-
-.line:nth-of-type(2) {
-  font-family: "Didonesque-Italic", serif;
-  font-size: 40px;
-}
-
-.big {
-  font-size: 55px;
-}
-
-.line:nth-of-type(3) {
-  font-size: 81px;
-  line-height: 0.75;
-}
-
-.line:nth-of-type(odd) {
-  font-family: "Didonesque-Black", serif;
-}
-
-.blockcenter {
-  position: relative;
-  width: 300px;
-  top: 50%;
-  left: 50%;
-  margin: -92px 0 0 -150px;
-}
-
-/* Block 2 ------------------------------------------------------------------*/
-
 .blockcenter2 {
   position: relative;
   width: 360px;
   height: 280px;
-  top: 50%;
-  left: 50%;
   margin: -140px 0 0 -180px;
   font-size: 90px;
 }
@@ -125,6 +117,7 @@ body {
   width: 360px;
   font-family: "didonesque-display", serif;
   text-align: center;
+  position: absolute;
 }
 
 .block2line:nth-of-type(odd) {
@@ -133,60 +126,62 @@ body {
 
 .block2line:nth-of-type(1) {
   font-size: 64%;
-  position: absolute;
   top: 30px;
 }
 
 .block2line:nth-of-type(2) {
   color: rgb(249, 255, 252);
   font-size: 100%;
-  width: 360px;
   height: 120px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   margin: -60px 0 0 -180px;
 }
 
 .block2line:nth-of-type(3) {
   font-size: 23%;
-  position: absolute;
   bottom: 25px;
 }
 
 /* Block 3---------------------------------------------------------- */
 
-.line000 {
+.blocksize:nth-of-type(3) {
+  background-color: rgb(74, 74, 74);
+  margin-left: 20px;
+}
+
+.blockcenter3 {
+  position: relative;
+  width: 300px;
+  margin: -93px 0 0 -150px;
+}
+
+.block3line {
   font-family: "baskerville_serial-light", serif;
   color: rgb(255, 255, 255);
   width: 300px;
   text-align: center;
 }
 
-.line000:nth-of-type(odd) {
+.block3line:nth-of-type(odd) {
   font-size: 33px;
 }
 
-.line000:nth-of-type(2) {
+.block3line:nth-child(n + 4) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  position: relative;
+}
+
+.block3line:nth-of-type(2) {
   font-size: 100px;
   margin-top: 20px;
 }
 
-.line000:nth-of-type(4) {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  position: relative;
+.block3line:nth-of-type(4) {
+  /* Strikethrough*/
   bottom: 35px;
 }
 
-.line000:nth-of-type(5) {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  color: rgb(255, 255, 255);
-  position: relative;
+.block3line:nth-of-type(5) {
+  /* Strikethrough*/
   bottom: 206px;
-}
-
-.blockcenter:nth-of-type(3) {
-  margin: -93px 0 0 -150px;
 }
