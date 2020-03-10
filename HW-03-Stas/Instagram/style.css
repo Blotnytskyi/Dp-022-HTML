@@ -1,0 +1,288 @@
+body {
+  background-color: white;
+  color: #616161;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+/* Button frame -------------------- */
+
+.buttonframe {
+  width: 130px;
+  height: 26px;
+  float: left;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+/* ------------------------------- */
+
+.block {
+  height: 40px;
+  top: 10px;
+  float: left;
+  position: relative;
+}
+
+/*--------------------------------  */
+
+.container {
+  background-color: rgb(250, 250, 250);
+  position: absolute;
+  width: 836px;
+  height: 225px;
+  top: 50%;
+  left: 50%;
+  margin: -112.5px 0 0 -468px;
+}
+
+/* Sections--------------------------- */
+
+.section {
+  height: 225px;
+}
+
+.section:nth-child(1) {
+  position: absolute;
+  width: 290px;
+}
+
+.section:nth-child(2) {
+  position: relative;
+  left: 290px;
+  width: 546px;
+}
+
+/* Lines ------------------------------------- */
+
+.line {
+  width: 546px;
+}
+
+.line:nth-of-type(1) {
+  height: 65px;
+  position: relative;
+  top: 20px;
+  font-size: 28px;
+}
+
+.line:nth-of-type(2) {
+  height: 45px;
+}
+
+.line:nth-of-type(3) {
+  height: 50px;
+}
+
+.line:nth-of-type(4) {
+  height: 30px;
+}
+
+/* Photo section ------------------------*/
+
+.coloredborder {
+  width: 166px;
+  height: 166px;
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #f99d4c, #c53193);
+  left: 50%;
+  top: 50%;
+  margin: -83px 0 0 -83px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -80px 0 0 -80px;
+  border-radius: 50%;
+  border: 5px solid rgb(250, 250, 250);
+}
+
+.transperentFrame {
+  width: 148px;
+  height: 148px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 1px solid hsla(45, 0%, 40%, 0.3);
+}
+
+/* First info line ----------------------------*/
+/* Blocks on first line ------------------------*/
+/* Nickname -----------------------------------*/
+
+.block:nth-child(1) {
+  width: 205px;
+  font-weight: 200;
+}
+
+.name {
+  height: 40px;
+  width: 205px;
+  top: 10px;
+  font-weight: 200;
+}
+
+/* Blue icon with checkmark-------------------- */
+
+.block:nth-child(2) {
+  width: 50px;
+}
+
+.square {
+  background-color: rgb(56, 151, 240);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -10px;
+}
+
+.square:nth-child(2) {
+  transform: rotate(60deg);
+}
+
+.square:nth-child(3) {
+  transform: rotate(30deg);
+}
+
+/* Checkmark */
+.rectanglewhite {
+  background-color: white;
+  width: 11px;
+  height: 6.5px;
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  transform: rotate(105deg);
+}
+
+/* Checkmark */
+.rectangleblue {
+  background-color: rgb(56, 151, 240);
+  width: 9px;
+  height: 6.5px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+
+/* Follow button---------------------------------------------------- */
+
+.block:nth-child(3) {
+  width: 150px;
+}
+
+.width130 {
+  width: 130px;
+}
+
+.text {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  top: 3px;
+}
+
+/* Button with Triangle--------------------------------------------------------- */
+
+.block:nth-child(4) {
+  width: 50px;
+}
+
+.width40 {
+  width: 40px;
+}
+
+.triangleblock {
+  height: 30px;
+  position: relative;
+}
+.triangleblock::after {
+  content: "";
+  position: relative;
+  left: 13px;
+  bottom: -18px;
+  border: 7px solid transparent; /* triangle edge */
+  border-top: 10px solid #232323; /* triangle */
+}
+
+/* Bubbles Button----------------------------------------------------------- */
+
+.block:nth-child(5) {
+  width: 50px;
+}
+
+.bubbles {
+  color: #232323;
+  font-size: 65px;
+  position: relative;
+  top: -45px;
+  left: 10px;
+  letter-spacing: -6px;
+}
+
+/* Second line ------------------------------------------*/
+
+.data {
+  float: left;
+  position: relative;
+  top: 20px;
+}
+
+.data:nth-child(odd) {
+  font-weight: 600;
+}
+
+.data:nth-child(2) {
+  left: 5px;
+}
+
+.data:nth-child(3) {
+  left: 40px;
+}
+
+.data:nth-child(4) {
+  left: 45px;
+}
+
+.data:nth-child(5) {
+  left: 90px;
+}
+
+.data:nth-child(6) {
+  left: 95px;
+}
+
+/* Third line ------------------------ */
+
+.fullname {
+  font-weight: 600;
+  position: relative;
+  top: 19px;
+}
+
+/* 4th line ------------------------ */
+
+.Followedby {
+  font-size: 12px;
+  position: relative;
+  top: 3.5px;
+  font-weight: 600;
+}
+
+.grey {
+  color: #a0a0a0;
+}
