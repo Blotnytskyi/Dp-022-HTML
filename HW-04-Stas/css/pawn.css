@@ -1,0 +1,59 @@
+@keyframes pawnAnima {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(0.95);
+  }
+}
+
+.pawn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 32.5px;
+  background-color: black;
+}
+
+.pawn::after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 15px;
+  border: 0.5px solid rgb(132, 132, 132);
+  border-radius: 2px;
+  position: relative;
+  top: 10px;
+  left: -2px;
+  background-color: black;
+}
+
+.pawn::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 5px;
+  border-radius: 2px;
+  position: relative;
+  top: 31px;
+  left: -5px;
+  background-color: black;
+}
+
+.pawn.white {
+  background-color: white;
+}
+
+.white.pawn::after {
+  background-color: white;
+}
+
+.pawn.white::before {
+  background-color: white;
+}
+
+.brown.pawn::after {
+  border-color: brown;
+}

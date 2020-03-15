@@ -1,0 +1,27 @@
+@import "king.css";
+@import "pawn.css";
+@import "rook.css";
+@import "bishop.css";
+@import "queen.css";
+@import "knight.css";
+
+.row {
+  font-size: 0;
+}
+
+.dots {
+  background-color: rgb(132, 132, 132);
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  border: 2px solid transparent;
+  transition: 1s border-color;
+}
+
+.dots:hover {
+  border-color: dimgrey;
+}
+
+.bl {
+  background-color: brown;
+}

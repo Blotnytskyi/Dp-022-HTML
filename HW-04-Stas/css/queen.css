@@ -1,0 +1,47 @@
+.queen {
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.queen::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    top: 32px;
+    left: -5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.queen::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    top: -9px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.queen.white {
+    background-color: white;
+}
+
+.white.queen::after {
+    background-color: white;
+}
+
+.white.queen::before {
+    background-color: white;
+}

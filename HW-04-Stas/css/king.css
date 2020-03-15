@@ -1,0 +1,50 @@
+.king {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-bottom-right-radius: 80%;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  transform: rotate(45deg);
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.king::before {
+  width: 25px;
+  height: 6px;
+  content: "";
+  display: block;
+  background-color: black;
+  border-radius: 2px;
+  position: relative;
+  top: -7px;
+  left: -16px;
+  transform: rotate(45deg);
+}
+
+.king::after {
+  width: 25px;
+  height: 6px;
+  content: "";
+  display: block;
+  background-color: black;
+  border-radius: 2px;
+  position: relative;
+  top: -14px;
+  left: -17px;
+  transform: rotate(135deg);
+}
+
+.king.white {
+  background-color: white;
+}
+
+.white.king::before {
+  background-color: white;
+}
+
+.white.king::after {
+  background-color: white;
+}

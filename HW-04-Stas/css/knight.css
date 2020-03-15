@@ -1,0 +1,46 @@
+.knight {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 5px;
+}
+
+.knight::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: relative;
+  background-color: rgb(132, 132, 132);
+  top: 12.5px;
+  left: 10px;
+}
+
+.knight::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  position: relative;
+  background-color: rgb(132, 132, 132);
+  top: 39px;
+  left: 4px;
+}
+
+.knight.white {
+  background-color: white;
+}
+
+.brown.knight::before {
+  background-color: brown;
+}
+
+.brown.knight::after {
+  background-color: brown;
+}

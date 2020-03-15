@@ -1,0 +1,48 @@
+.rook {
+  width: 75px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  top: 20px;
+  left: 7.5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.rook::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 20px;
+  background-color: brown;
+  position: relative;
+  top: 0px;
+  left: 15px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.rook::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 20px;
+  background-color: brown;
+  position: relative;
+  top: -20px;
+  left: 45px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.rook.white {
+  background-color: white;
+}
+
+.grey.rook::before {
+  background-color: rgb(132, 132, 132);
+}
+
+.grey.rook::after {
+  background-color: rgb(132, 132, 132);
+}
