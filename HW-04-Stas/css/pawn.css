@@ -1,9 +1,18 @@
-@keyframes pawnAnima {
+@keyframes pawnAnima1 {
   from {
     transform: scale(1.05);
   }
   to {
     transform: scale(0.95);
+  }
+}
+
+@keyframes pawnAnima2 {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
   }
 }
 
@@ -15,6 +24,7 @@
   top: 30px;
   left: 32.5px;
   background-color: black;
+  animation: pawnAnima1 2s infinite alternate linear;
 }
 
 .pawn::after {
@@ -28,6 +38,7 @@
   top: 10px;
   left: -2px;
   background-color: black;
+  animation: pawnAnima2 0.01s infinite alternate linear;
 }
 
 .pawn::before {

@@ -1,3 +1,12 @@
+@keyframes kingAnima {
+  from {
+    transform: rotate(30deg);
+  }
+  to {
+    transform: rotate(60deg);
+  }
+}
+
 .king {
   width: 45px;
   height: 45px;
@@ -9,6 +18,8 @@
   position: relative;
   top: 35px;
   left: 25px;
+  animation: kingAnima 2s infinite alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .king::before {

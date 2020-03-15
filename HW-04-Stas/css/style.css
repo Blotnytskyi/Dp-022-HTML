@@ -19,7 +19,40 @@
 }
 
 .dots:hover {
-  border-color: dimgrey;
+  border-color: hotpink;
+}
+
+.dots:hover * {
+  background-color: lawngreen;
+}
+
+.dots:hover .king::after {
+  background-color: lawngreen;
+}
+
+.dots:hover .king::before {
+  background-color: lawngreen;
+}
+
+.dots:hover .queen::after {
+  background-color: lawngreen;
+}
+
+.dots:hover .queen::before {
+  background-color: lawngreen;
+}
+
+.dots:hover .pawn::after {
+  background-color: lawngreen;
+}
+
+.dots:hover .pawn::before {
+  background-color: lawngreen;
+}
+
+.dots:hover .bishop::before {
+  background-color: lawngreen;
+  border-color: lawngreen;
 }
 
 .bl {

@@ -1,47 +1,58 @@
+@keyframes queenAnima {
+  from {
+    top: -20px;
+  }
+  to {
+    top: -9px;
+  }
+}
+
 .queen {
-    width: 50px;
-    height: 40px;
-    background-color: black;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  width: 50px;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .queen::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 10px;
-    background-color: black;
-    position: relative;
-    top: 32px;
-    left: -5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 10px;
+  background-color: black;
+  position: relative;
+  top: 32px;
+  left: -5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .queen::before {
-    content: '';
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    position: relative;
-    top: -9px;
-    left: 20px;
-    border-radius: 50%;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: relative;
+  top: -9px;
+  left: 20px;
+  border-radius: 50%;
+  animation: queenAnima 1s infinite alternate;
+  animation-timing-function: cubic-bezier(0.9, 0.05, 1, 0.4);
 }
 
 .queen.white {
-    background-color: white;
+  background-color: white;
 }
 
 .white.queen::after {
-    background-color: white;
+  background-color: white;
 }
 
 .white.queen::before {
-    background-color: white;
+  background-color: white;
 }
