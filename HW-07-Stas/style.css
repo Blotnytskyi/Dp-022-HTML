@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Craft";
+    src: url(../HW-07-Stas/Fontspring-DEMO-CraftRounded-Regular.otf);
+  }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(#F7F7F7, #E1E1E1);
+  }
+
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 850px;
+      height: 90px;
+  }
+
+  .input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 2;
+      background-color: white;
+      height: 100%;
+  }
+
+  .input:nth-of-type(1){
+      border-right: 1px solid #ECECEC;
+      display: flex;
+      justify-content: left;
+  }
+
+  .input:nth-of-type(3) {
+      flex-grow: 0.55;
+      justify-content: center;
+      align-items: center;
+  }
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background: #4540DF;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    outline: none;
+}
+
+#search:hover {
+    background: rgb(110, 105, 251);
+    cursor: pointer;
+}
+
+#search:active {
+    background:  rgb(63, 60, 139);;
+}
+
+#input {
+    font-family: craft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color: #ACACAC;
+    font-size: 14px;
+    border: 0;
+    flex-grow: 2;
+    height: 100%;
+    width: 0;
+    padding: 0;
+}
+
+div.icon {
+    display: flex;
+    width: 60px;
+    height: 100%;
+    flex-grow: 0.2;
+    justify-content: center;
+    align-items: center;
+}
