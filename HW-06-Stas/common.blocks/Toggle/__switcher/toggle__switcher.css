@@ -1,0 +1,14 @@
+@import "../__switcher/_color/toggle__switcher_color_green.css";
+@import "../__switcher/_color/toggle__switcher_color_white.css";
+@import "../__switcher/_size/toggle__switcher_size_big_elipse.css";
+@import "../__switcher/_size/toggle__switcher_size_small_circle.css";
+@import "../__switcher/_value/toggle__switcher_value_checked-off.css";
+@import "../__switcher/_value/toggle__switcher_value_unchecked.css";
+@import "../__switcher/_shadow/toggle__switcher_shadow_atbottm.css";
+@import "../__switcher/_shadow/toggle__switcher_shadow_atbottm_low.css";
+
+.toggle__switcher {
+    display: block;
+    position: relative;
+    z-index: 1;
+}

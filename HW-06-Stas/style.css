@@ -1,0 +1,14 @@
+@import "../HM-06-Stas/common.blocks/Toggle/toggle.css";
+@import "../HM-06-Stas/common.blocks/container/container.css";
+@import "/HM-06-Stas/Toggles/common.blocks/Toggle/toggle.css";
+@import "/HM-06-Stas/Toggles/common.blocks/container/container.css";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(#F7F7F7, #E1E1E1);
+}

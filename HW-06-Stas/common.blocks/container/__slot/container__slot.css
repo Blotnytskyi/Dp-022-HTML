@@ -1,0 +1,8 @@
+@import "../__slot/_size/container__slot_size_300x100.css";
+
+.container__slot {
+    display: flex;
+    /* background-color: tomato; */
+    justify-content: center;
+    align-items: center;
+}

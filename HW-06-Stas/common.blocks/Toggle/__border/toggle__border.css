@@ -1,0 +1,25 @@
+@import "../__border/_size/toggle__border_size_long.css";
+@import "../__border/_size/toggle__border_size_short.css";
+@import "../__border/_view/toggle__border_view_flat.css";
+@import "../__border/_view/toggle__border_view_volumetric.css";
+@import "../__border/_color/toggle__border_color_D6D6D6.css";
+@import "../__border/_shadow/toggle__border_shadow_inset.css";
+@import "../__border/_color/toggle__border_color_grey.css";
+
+.toggle__border {
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid (linear-gradient(45deg, #f99d4c, #c53193));
+    border-color: linear-gradient(45deg, #f99d4c, #c53193);
+}
+
+
+/* .toggle {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #D6D6D6;
+  } */
