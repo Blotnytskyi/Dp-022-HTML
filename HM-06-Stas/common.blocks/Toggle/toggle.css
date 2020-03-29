@@ -1,8 +1,0 @@
-@import "../Toggle/__border/toggle__border.css";
-@import "../Toggle/__switcher/toggle__switcher.css";
-@import "../Toggle/__dot/toggle__dot.css";
-@import "../Toggle/__slider/toggle__slider.css";
-@import "../Toggle/__switcher/_value/toggle__switcher_value_checked-off-big.css";
-.toggle {
-  display: inline-block;
-}
