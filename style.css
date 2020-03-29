@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "orbitron";
+    src: url(orbitronmedium.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #ED2B40;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    color: white;
+    font-weight: 600;
+    font-family: orbitron;
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-template-areas: "hw line num01" "hw line num02" "hw line num03" "hw line num04" "hw line num05" "hw line num06" "hw line num07" "hw line num08";
+}
+
+section {
+    font-size: 10vh;
+}
+
+section:nth-of-type(n+2):hover {
+    cursor: pointer;
+}
+
+section:nth-of-type(n+2):active {
+    color: lightcoral;
+}
+
+section:nth-of-type(9) {
+    color: rgb(255, 211, 101);
+}
+
+section:nth-of-type(1) {
+    grid-area: hw;
+    font-size: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-of-type(1):hover {
+    cursor: default;
+}
+
+section:nth-of-type(2) {
+    grid-area: line;
+    width: 5px;
+    height: 95vh;
+    background-color: white;
+}
+
+section:nth-of-type(3) {
+    grid-area: num01;
+}
+
+section:nth-of-type(4) {
+    grid-area: num02;
+}
+
+section:nth-of-type(5) {
+    grid-area: num03;
+}
+
+section:nth-of-type(6) {
+    grid-area: num04;
+}
+
+section:nth-of-type(7) {
+    grid-area: num05;
+}
+
+section:nth-of-type(8) {
+    grid-area: num06;
+}
+
+section:nth-of-type(9) {
+    grid-area: num07;
+}
+
+section:nth-of-type(10) {
+    grid-area: num08;
+}
