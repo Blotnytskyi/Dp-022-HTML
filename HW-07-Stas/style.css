@@ -83,7 +83,7 @@ body {
 
 div.icon {
     display: flex;
-    width: 60px;
+    /* width: 60px; */
     height: 100%;
     flex-grow: 0.2;
     justify-content: center;
