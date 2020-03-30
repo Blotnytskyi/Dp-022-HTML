@@ -32,7 +32,11 @@ section:nth-of-type(n+2):active {
     color: lightcoral;
 }
 
-section:nth-of-type(9) {
+section:nth-of-type(8) {
+    color: rgb(255, 211, 101);
+}
+
+section:nth-of-type(8):active {
     color: rgb(255, 211, 101);
 }
 
