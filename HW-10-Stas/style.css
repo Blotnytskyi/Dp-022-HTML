@@ -17,7 +17,7 @@ body {
     font-family: orbitron;
     display: grid;
     grid-template-columns: 1fr 50px 1fr;
-    grid-template-areas: "hw line num01" "hw line num02" "hw line num03" "hw line num04" "hw line num05" "hw line num06" "hw line num07" "hw line num08" "hw line num09";
+    grid-template-areas: "hw line num01" "hw line num02" "hw line num03" "hw line num04";
 }
 
 section {
@@ -31,14 +31,6 @@ section:nth-of-type(n+2):hover {
 section:nth-of-type(n+2):active {
     color: lightcoral;
 }
-
-/* section:nth-of-type(8) {
-    color: rgb(255, 211, 101);
-}
-
-section:nth-of-type(8):active {
-    color: rgb(255, 211, 101);
-} */
 
 section:nth-of-type(1) {
     grid-area: hw;
@@ -55,7 +47,7 @@ section:nth-of-type(1):hover {
 section:nth-of-type(2) {
     grid-area: line;
     width: 5px;
-    height: 95vh;
+    height: 60vh;
     background-color: white;
 }
 
@@ -77,20 +69,4 @@ section:nth-of-type(6) {
 
 section:nth-of-type(7) {
     grid-area: num05;
-}
-
-section:nth-of-type(8) {
-    grid-area: num06;
-}
-
-section:nth-of-type(9) {
-    grid-area: num07;
-}
-
-section:nth-of-type(10) {
-    grid-area: num08;
-}
-
-section:nth-of-type(11) {
-    grid-area: num09;
 }
