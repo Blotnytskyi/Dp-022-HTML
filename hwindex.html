@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        @font-face {
+            font-family: "Square-sans-serif";
+            src: url(../fonts/square_sans_serif_7.ttf);
+        }
+
+        body {
+            margin: 0;
+            /* background-color: #505050; */
+            background: linear-gradient(#F7F7F7, #E1E1E1);
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            align-content: space-around;
+            color: #FDDA39;
+            font-weight: 600;
+            font-family: Square-sans-serif;
+            display: grid;
+            grid-template-columns: 1.5fr 7.5px 1fr ;
+            grid-template-areas: "pic1 line pic2";
+        }
+
+        section {
+            /* font-size: 20vh; */
+            text-align: center;
+        }
+
+        section:nth-of-type(n+3):hover {
+            cursor: pointer;
+            /* color: #000000; */
+        }
+
+        section:nth-of-type(n+3):active {
+            /* color: #D5BA2C; */
+        }
+
+        section:nth-of-type(1) {
+            grid-area: pic1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* section:nth-of-type(1):hover {
+            cursor: default;
+        }
+
+        section:nth-of-type(2) {
+            grid-area: pic2;
+        } */
+
+        section:nth-of-type(2) {
+            grid-area: line;
+            width: 7.5px;
+            height: 37vh;
+            background-color: #505050;
+            /* justify-content: flex-end; */
+            text-align: right;
+        }
+
+        /* section:nth-of-type(4) {
+            grid-area: pic3;
+        } */
+
+        img {
+            width: 35vh;
+        }
+
+        /* img.first {
+            /* height: 75%; */
+            /* width: 35vh;
+        } */
+
+        /* img.second { */
+            /* height: 75%; */
+            /* width: 33vh; */
+        /* } */ */
+
+        /* img:nth-of-type(2) {
+            height: 75%;
+            width: 75vh;
+        } */
+
+    </style>
+</head>
+
+<body>
+    <section><img class="first" src="../img/1.png"><img class="second" src="../img/2.png"></section>
+    <!-- <section><img class="second" src="../img/2.png"></section> -->
+    <section></section>
+    <section><img class="third" src="../img/3.png"></section>
+</body>
+
+</html>
