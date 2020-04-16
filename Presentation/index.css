@@ -1,0 +1,493 @@
+@font-face {
+    font-family: "DharmaGothicR";
+    src: url(/Presentation/Fonts/Fontspring-DEMO-DharmaGothicE_Heavy_R.otf);
+}
+
+@font-face {
+    font-family: "DharmaGothicI";
+    src: url(/Presentation/Fonts/Fontspring-DEMO-DharmaGothicE_Heavy_I.otf);
+}
+
+@font-face {
+    font-family: "DharmaGothicLight";
+    src: url(/Presentation/Fonts/Fontspring-DEMO-DharmaGothicE_ExLight_I.otf);
+}
+
+@font-face {
+    font-family: "Stilltime";
+    src: url(/Presentation/Fonts/still_time.otf);
+}
+
+body {
+    display: grid;
+    background: linear-gradient(#F7F7F7, #E1E1E1);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    z-index: 1;
+    grid-template-rows: 50px 1fr 50px 50px 50px 75px;
+}
+
+#header {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    margin: 0;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0px 15px -7px black;
+    transition: z-index, 100ms;
+}
+
+.name {
+    display: grid;
+    align-items: center;
+    margin-left: 50px;
+    font-family: Stilltime;
+    font-size: 30px;
+}
+
+.aboutMe {
+    display: grid;
+    align-items: center;
+    justify-self: end;
+    margin-right: 50px;
+    font-family: DharmaGothicLight;
+    font-size: 30px;
+    color: grey;
+}
+
+.aboutMe:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#menuAboutMe {
+    position: absolute;
+    z-index: 0;
+    width: 0;
+    height: 0vw;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 500ms;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+.left {
+    margin: 0;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: black;
+    grid-template-columns: 4px 1fr 4px 1fr 4px;
+    grid-template-rows: 1fr 4px 250px 4px 250px 4px 250px 4px 1fr;
+}
+
+#blank1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#blank5 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#line2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-template-columns: 1fr 3px 1fr;
+}
+
+#blank2 {
+    display: grid;
+    ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 150px;
+    height: 250px;
+    background-color: white;
+}
+
+#html {
+    display: grid;
+    ;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: DharmaGothicR;
+    font-size: 357px;
+    margin-top: -71px;
+    margin-left: -6px;
+}
+
+#line3 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-template-columns: 1fr 3px 1fr;
+}
+
+#css {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: DharmaGothicR;
+    font-size: 358px;
+    margin-top: -71px;
+    margin-left: -6px;
+}
+
+#blank3 {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    width: 298px;
+    height: 250px;
+    background-color: white;
+}
+
+#line4 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-template-columns: 1fr 3px 1fr;
+}
+
+span {
+    display: inline-block;
+    font-size: 357px;
+    height: 250px;
+    overflow-inline: 1;
+}
+
+#js {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: white;
+    font-family: DharmaGothicR;
+    margin-top: 125px;
+    margin-left: -6px;
+    line-height: 0.1;
+}
+
+#blank4 {
+    display: grid;
+    ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 433px;
+    height: 250px;
+    background-color: white;
+}
+
+.right {
+    margin: 0;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: black;
+    grid-template-rows: 90px 1fr;
+}
+
+#crossButton {
+    grid-row-start: 1;
+    grid-row-start: 1;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px solid black;
+    transition: border-color 600ms, width, height;
+    justify-content: left;
+    align-items: center;
+    transform: scale(0.6);
+    justify-self: end;
+}
+
+#crossButton::before {
+    content: '';
+    display: block;
+    position: relative;
+    transform: rotate(45deg);
+    top: 35px;
+    left: 7.5px;
+    width: 60px;
+    height: 5px;
+    background-color: #808080;
+    transition: background-color, 1s;
+}
+
+#crossButton::after {
+    content: '';
+    display: block;
+    position: relative;
+    transform: rotate(315deg);
+    top: 30px;
+    left: 7.5px;
+    width: 60px;
+    height: 5px;
+    background-color: #808080;
+    transition: background-color, 1s;
+}
+
+#crossButton:hover {
+    border-color: white;
+}
+
+#crossButton:hover:after {
+    background-color: white;
+}
+
+#crossButton:hover:before {
+    background-color: white;
+}
+
+#crossButton:active {
+    border-color: lightslategray;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: #1F1B28;
+    box-shadow: 0px 0px 15px -7px black;
+}
+
+#tabhtml {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    margin-top: 0;
+    height: 150px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 15px -7px black;
+    transition: width, 2s, height, 2s, margin-top, 1s;
+    opacity: 1;
+}
+
+#tabhtml::after {
+    content: 'HTML';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 90vw;
+    width: 60px;
+    height: 32px;
+    background-color: #E44D26;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 1;
+    transition: opacity 300ms;
+    transition-delay: 750ms;
+}
+
+#tabhtml.blank1::after {
+    content: 'HTML';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 90vw;
+    width: 60px;
+    height: 32px;
+    background-color: #E44D26;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 0;
+    transition: opacity 1ms;
+}
+
+#tabcss {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    margin-top: 0;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 15px -7px black;
+    transition: width, 1s, height, 2s, margin-top, 1s;
+}
+
+#tabcss::after {
+    content: 'CSS';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 90vw;
+    width: 60px;
+    height: 32px;
+    background-color: #1572B6;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition-delay: 750ms;
+}
+
+#tabcss.blank2::after {
+    content: 'CSS';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 90vw;
+    width: 60px;
+    height: 32px;
+    background-color: #1572B6;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 0;
+    transition: opacity 1ms;
+}
+
+#tabcss.open::after {
+    content: 'CSS';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 85vw;
+    width: 60px;
+    height: 32px;
+    background-color: #1572B6;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#tabcss.blank::after {
+    content: 'CSS';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 90vw;
+    width: 60px;
+    height: 32px;
+    background-color: #1572B6;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#tabjs {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 0;
+    /* height: 200px; */
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 15px -7px black;
+    transition: width, 2s, height, 2s, margin-top, 1s;
+}
+
+#tabjs::after {
+    content: 'JS';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 90vw;
+    width: 60px;
+    height: 32px;
+    background-color: #D5BA2C;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: black;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition-delay: 750ms;
+}
+
+#tabjs.openjs::after {
+    content: 'JS';
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -32px;
+    left: 80vw;
+    width: 60px;
+    height: 32px;
+    background-color: #D5BA2C;
+    transition: background-color, 1s;
+    font-family: DharmaGothicR;
+    color: black;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}

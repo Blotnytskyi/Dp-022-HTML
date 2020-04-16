@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    background-color: rgb(170, 106, 81);
+}
+
+#f1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: 0;
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 2px 3px black ;
+    transition: width, 2s, height, 2s, margin-top, 2s;
+}
+
+#f2 {
+    z-index: -1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: lightsalmon;
+    /* transition: grid-column-start, 10s, grid-column-end, 10s; */
+}

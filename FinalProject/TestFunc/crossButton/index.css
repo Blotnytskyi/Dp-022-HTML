@@ -1,0 +1,50 @@
+#crossButton {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: lightslategray; */
+    border: 10px solid white;
+    transition: border-color, 1s;
+    /* transition: background-color, 100ms; */
+}
+
+#crossButton::before {
+    content: '';
+    display: block;
+    position: relative;
+    transform: rotate(45deg);
+    top: 92.5px;
+    left: 25px;
+    width: 150px;
+    height: 15px;
+    background-color: black;
+}
+
+#crossButton::after {
+    content: '';
+    display: block;
+    position: relative;
+    transform: rotate(315deg);
+    top: 77.5px;
+    left: 25px;
+    width: 150px;
+    height: 15px;
+    background-color: black;
+}
+
+#crossButton:hover {
+    border-color: black;
+}
+
+#crossButton:active:after  {
+    background-color: red;
+}
+
+#crossButton:active:before {
+    background-color: red;
+}
+
+#crossButton:active {
+    border-color: lightslategray;
+    /* background-color: red; */
+}
